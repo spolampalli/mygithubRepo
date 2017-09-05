@@ -15,3 +15,5 @@ spec:
         ports:
         - name: nodejs-port
           containerPort: 3000
+      nodeSelector:
+        hardware: high-spec
